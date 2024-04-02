@@ -13,11 +13,13 @@ namespace COMP003B.SP2024.Lecture2.Controllers
             _logger = logger;
         }
 
+        // GET "Home/Index"
         public IActionResult Index()
         {
             return View();
         }
 
+        // GET "Home/Privacy"
         public IActionResult Privacy()
         {
             return View();
