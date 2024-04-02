@@ -20,6 +20,7 @@ namespace COMP003B.SP2024.Lecture2
             }
 
             // middleware
+            
 
             // added Welcome page middleware at /Welcome
             app.UseWelcomePage("/Welcome");
